@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+.tmslider-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.tmslider {
+  width: 120px;
+  overflow: hidden;
+  border: 1px solid red;
+}
+
+.tmslides {
+  display: flex;
+  transition: all .3s ease-in-out;
+}
+
+.tmslides.a {
+  transform: translateX(-100px);
+}
+.tmslide {
+  /* position: relative; */
+  box-sizing: border-box;
+  min-width: 100%;
+  background-color: green;
+  border: 2px solid grey;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  border: 1px solid blue;
+}
+
+.prev {
+  margin-right: 10px;
+}
+
+.next {
+  margin-left: 10px;
+}
+
+
